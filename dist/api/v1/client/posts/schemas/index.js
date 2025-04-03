@@ -1,0 +1,11 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.paramsSchema = exports.querySchema = exports.updatePostSchema = exports.createPostSchema = void 0;
+var create_post_schema_1 = require("./create-post.schema");
+Object.defineProperty(exports, "createPostSchema", { enumerable: true, get: function () { return create_post_schema_1.createPostSchema; } });
+var update_post_schema_1 = require("./update-post.schema");
+Object.defineProperty(exports, "updatePostSchema", { enumerable: true, get: function () { return update_post_schema_1.updatePostSchema; } });
+var query_schema_1 = require("./query.schema");
+Object.defineProperty(exports, "querySchema", { enumerable: true, get: function () { return query_schema_1.querySchema; } });
+var params_schema_1 = require("./params.schema");
+Object.defineProperty(exports, "paramsSchema", { enumerable: true, get: function () { return params_schema_1.paramsSchema; } });

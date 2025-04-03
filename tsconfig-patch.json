@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "plugins": [
+      {
+        "transform": "typescript-transform-paths",
+        "after": true
+      },
+      {
+        "transform": "typescript-transform-paths",
+        "afterDeclarations": true
+      }
+    ]
+  }
+} 
